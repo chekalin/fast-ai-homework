@@ -32,7 +32,7 @@ def get_sample_name():
 
 
 prediction_start_time = time.time()
-number_of_batches = int(math.ceil(test_batches.n / float(test_batch_size)))
+number_of_batches = int(math.ceil(test_batches.nb_sample / float(test_batch_size)))
 for i in range(number_of_batches):
     batch_start_time = time.time()
     imgs, _ = next(test_batches)
