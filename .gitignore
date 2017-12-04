@@ -2,6 +2,5 @@
 .idea
 *.iml
 lesson1hw/data/*
-!lesson1hw/data/sample
 *.pyc
-
+.ipynb_checkpoints
