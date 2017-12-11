@@ -1,6 +1,6 @@
 .DS_Store
 .idea
 *.iml
-lesson1hw/data/*
+data/*
 *.pyc
 .ipynb_checkpoints
