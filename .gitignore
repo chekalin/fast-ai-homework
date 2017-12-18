@@ -1,6 +1,7 @@
 .DS_Store
 .idea
 *.iml
-data/*
+**/data/*
+*.h5
 *.pyc
 .ipynb_checkpoints
